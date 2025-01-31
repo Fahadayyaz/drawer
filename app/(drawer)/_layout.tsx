@@ -42,6 +42,7 @@ export default function DrawerLayout() {
           drawerIcon: ({ color, size }) => <MaterialIcons name="design-services" size={size} color={color} />, 
         }}
       />
+      
       <Drawer.Screen
         name="faq"
         options={{
@@ -49,6 +50,11 @@ export default function DrawerLayout() {
           drawerIcon: ({ color, size }) => <MaterialIcons name="chat" size={size} color={color} />, 
         }}
       />
+      <Drawer.Screen name="Other"     options={{
+          title: 'Other',
+          drawerIcon: ({ color, size }) => <MaterialIcons name="chat" size={size} color={color} />, 
+        }} />
+      
       <Drawer.Screen
         name="settings"
         options={{
