@@ -61,7 +61,6 @@ export default function DrawerLayout() {
           drawerIcon: ({ color, size }) => <MaterialIcons name="settings" size={size} color={color} />, 
         }}
       />
-      <View style={{ flex: 1 }} />
       <Drawer.Screen
         name="logout"
         options={{
