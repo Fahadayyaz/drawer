@@ -1,4 +1,3 @@
-// app/(drawer)/_layout.tsx
 import { Drawer } from 'expo-router/drawer';
 import { View } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
